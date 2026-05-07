@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/hosny-portfolio/static/css/main.48031724.css",
+    "main.js": "/hosny-portfolio/static/js/main.9f09fa86.js",
+    "static/js/453.2cff65e4.chunk.js": "/hosny-portfolio/static/js/453.2cff65e4.chunk.js",
+    "static/media/color-sharp.png": "/hosny-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/banner-bg.png": "/hosny-portfolio/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/hosny-portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/project-img1.png": "/hosny-portfolio/static/media/project-img1.0d09e0cae03ae1c3aa95.png",
+    "static/media/project-img3.png": "/hosny-portfolio/static/media/project-img3.c8242422f0dcc13e282a.png",
+    "static/media/My_CV.pdf": "/hosny-portfolio/static/media/My_CV.a3986b9c308458d6da2f.pdf",
+    "static/media/contact.png": "/hosny-portfolio/static/media/contact.c502be7d42a772190183.png",
+    "static/media/project-img6.png": "/hosny-portfolio/static/media/project-img6.eb0ed520911c3a9dca4a.png",
+    "static/media/project-img4.png": "/hosny-portfolio/static/media/project-img4.937322519405cec6cf2a.png",
+    "static/media/project-img5.png": "/hosny-portfolio/static/media/project-img5.27b567de7ef2c5f022a1.png",
+    "static/media/project-img2.png": "/hosny-portfolio/static/media/project-img2.f709269154ae113f7766.png",
+    "static/media/revicons.eot": "/hosny-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/hosny-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/hosny-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/hosny-portfolio/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/hosny-portfolio/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/meter3.svg": "/hosny-portfolio/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/nav-icon3.svg": "/hosny-portfolio/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "index.html": "/hosny-portfolio/index.html",
+    "static/media/nav-icon1.svg": "/hosny-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/hosny-portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.48031724.css.map": "/hosny-portfolio/static/css/main.48031724.css.map",
+    "main.9f09fa86.js.map": "/hosny-portfolio/static/js/main.9f09fa86.js.map",
+    "453.2cff65e4.chunk.js.map": "/hosny-portfolio/static/js/453.2cff65e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48031724.css",
+    "static/js/main.9f09fa86.js"
+  ]
+}
