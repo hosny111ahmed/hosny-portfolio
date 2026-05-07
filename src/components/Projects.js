@@ -11,12 +11,12 @@ import projImg6 from "../assets/img/project-img6.png";
 
 export const Projects = () => {
   const projects = [
-    { title: "Project 1", description: "Design & Development", imgUrl: projImg1 },
-    { title: "Project 2", description: "Design & Development", imgUrl: projImg2 },
-    { title: "Project 3", description: "Design & Development", imgUrl: projImg3 },
-    { title: "Project 4", description: "Design & Development", imgUrl: projImg4 },
-    { title: "Project 5", description: "Design & Development", imgUrl: projImg5 },
-    { title: "Project 6", description: "Design & Development", imgUrl: projImg6 },
+    { title: "Project 1", description: "Cybersecurity & Penetration Testing", imgUrl: projImg1 },
+    { title: "Project 2", description: "Cybersecurity & Penetration Testing", imgUrl: projImg2 },
+    { title: "Project 3", description: "Cybersecurity & Penetration Testing", imgUrl: projImg3 },
+    { title: "Project 4", description: "Cybersecurity & Penetration Testing", imgUrl: projImg4 },
+    { title: "Project 5", description: "Cybersecurity & Penetration Testing", imgUrl: projImg5 },
+    { title: "Project 6", description: "Cybersecurity & Penetration Testing", imgUrl: projImg6 },
   ];
 
   return (

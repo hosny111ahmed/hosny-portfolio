@@ -33,10 +33,15 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
+                
+A cybersecurity student with hands-on experience in penetration testing,
+network security fundamentals, and system hardening.
+
                 <br />
-                Lorem Ipsum has been the industry's standard dummy text.
+               
+Focused on learning how to identify vulnerabilities and protect systems
+against real-world cyber threats.
+
               </p>
 
               <Carousel
@@ -45,18 +50,18 @@ export const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Web Development" />
-                  <h5>Web Development</h5>
+                  <img src={meter1} alt="Networking Fundamentals" />
+                  <h5>Networking Fundamentals</h5>
                 </div>
 
                 <div className="item">
-                  <img src={meter2} alt="Brand Identity" />
-                  <h5>Brand Identity</h5>
+                  <img src={meter2} alt="Penetration Testing Basics" />
+                  <h5>Penetration Testing Basics</h5>
                 </div>
 
                 <div className="item">
-                  <img src={meter3} alt="Logo Design" />
-                  <h5>Logo Design</h5>
+                  <img src={meter3} alt="Linux & System Administration" />
+                  <h5>Linux & System Administration</h5>
                 </div>
               </Carousel>
             </div>
