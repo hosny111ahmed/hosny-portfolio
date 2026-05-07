@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
@@ -12,10 +11,8 @@ function NavBar() {
 
   useEffect(() => {
     const onScroll = () => {
-      if (window.scrollY > 50) setScrolled(true);
-      else setScrolled(false);
+      setScrolled(window.scrollY > 50);
     };
-
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
@@ -27,13 +24,11 @@ function NavBar() {
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="/">
-          <img src={logo} alt="Logo" />
+        <Navbar.Brand href="#home" className="logo-text">
+          Hosny Kandil
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className="navbar-toggler-icon"></span>
-        </Navbar.Toggle>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
@@ -76,13 +71,36 @@ function NavBar() {
 
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="" /></a>
-              <a href="#"><img src={navIcon2} alt="" /></a>
-              <a href="#"><img src={navIcon3} alt="" /></a>
+              <a
+                href="https://www.linkedin.com/in/hosny-ahmed-0214b1371"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={navIcon1} alt="LinkedIn" />
+              </a>
+
+              <a
+                href="https://www.facebook.com/share/18wkqdfuGq/?mibextid=wwXIfr"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={navIcon2} alt="Facebook" />
+              </a>
+
+              <a
+                href="https://www.instagram.com/hosny.__.kandil"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={navIcon3} alt="Instagram" />
+              </a>
             </div>
-            <button className="vvd">
-              <span>Let’s Connect</span>
-            </button>
+
+            <a href="#contact">
+              <button className="vvd">
+                <span>Let’s Connect</span>
+              </button>
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>

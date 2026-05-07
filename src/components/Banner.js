@@ -1,16 +1,22 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
+
+import headerImg from "../assets/img/header-img.svg";
+import cv from "../assets/img/My_CV.pdf";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const period = 2000;
+  const [delta, setDelta] = useState(300);
+  const period = 700;
 
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = [
+    "Cybersecurity Student",
+    "Pentester",
+    "Web Designer"
+  ];
 
   useEffect(() => {
     const ticker = setInterval(() => {
@@ -35,7 +41,7 @@ export const Banner = () => {
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setDelta(500);
+      setDelta(200);
     }
   };
 
@@ -47,23 +53,38 @@ export const Banner = () => {
             <span className="tagline">Welcome to my Portfolio</span>
 
             <h1>
-              {`Hi! I'm Hosny `}
+              Hi! I'm Hosny{" "}
               <span className="txt-rotate">
                 <span className="wrap">{text}</span>
               </span>
             </h1>
 
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Cybersecurity student focused on penetration testing,
+              vulnerability assessment, and ethical hacking techniques.
             </p>
 
-            <button onClick={() => console.log("connect")}>
-              Let’s Connect <ArrowRightCircle size={25} />
-            </button>
+            <div className="banner-buttons">
+              {/* ✅ Let’s Connect */}
+              <a href="#contact">
+                <button>
+                  Let’s Connect <ArrowRightCircle size={25} />
+                </button>
+              </a>
+
+              {/* Download CV */}
+              <a
+                href={cv}
+                download="Hosny_CV.pdf"
+                className="cv-btn"
+              >
+                Download CV <ArrowRightCircle size={25} />
+              </a>
+            </div>
           </Col>
 
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Header Img" />
+            <img src={headerImg} alt="Header" />
           </Col>
         </Row>
       </Container>
